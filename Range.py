@@ -9,7 +9,7 @@ vlan_array = text.split(',')
 print ("\nAusgabe:\n")
 
 for y in range (0,len(vlan_array)):
-	
+
 	if (vlan_array[y].find('-')) != -1:
 		vlan_range = vlan_array[y]
 		vlan_range_array = []
@@ -23,5 +23,4 @@ for y in range (0,len(vlan_array)):
 			print (x)
 	else:
 		print (vlan_array[y])
-	
-
+	#neuer Kommentar
