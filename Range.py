@@ -24,3 +24,4 @@ for y in range (0,len(vlan_array)):
 	else:
 		print (vlan_array[y])
 	#neuer Kommentar
+	# second new comment
