@@ -1,6 +1,6 @@
 import string
 
-text =(input("Bitte Cisco VLAN-Range einfügen: "))
+text =(input("Please paste Cisco VLAN-Range here: "))
 
 text = text.replace(" ", "")
 
