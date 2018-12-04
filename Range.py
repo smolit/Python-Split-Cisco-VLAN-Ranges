@@ -6,7 +6,7 @@ text = text.replace(" ", "")
 
 vlan_array = text.split(',')
 
-print ("\nAusgabe:\n")
+print ("\nOutput:\n")
 
 for y in range (0,len(vlan_array)):
 
